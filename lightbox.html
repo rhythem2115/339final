@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lightbox Exam Challenge</title>
+    <!-- Include Lightbox CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+</head>
+<body>
+    <h1>Lightbox Exam Challenge</h1>
+    <p>Use the <a href="https://lokeshdhakar.com/projects/lightbox2/">lightbox code from class</a> to transform the nine images below into three sets of lightboxes. The first set should be the first image from each div, the second set should be the second image from each div, and the third set should be the third image from each div.</p>
+    <h2>Requirements</h2>
+    <ol>
+        <li>The first set should be the first image from each div, the second set should be the second image from each div, and the third set should be the third image from each div.</li>
+        <li>Each lightbox image must have a caption and alt text</li>
+        <li>Change the imageFadeDuration to 1000</li>
+    </ol>
+
+    <!-- First Row of Images -->
+    <div>
+        <a href="https://upload.wikimedia.org/wikipedia/commons/c/c2/Recherches_pour_servir_%C3%A0_l%27histoire_naturelle_des_mammif%C3%A8res.jpg" 
+           data-lightbox="set-1" 
+           data-title="Caption for Bear 1">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Recherches_pour_servir_%C3%A0_l%27histoire_naturelle_des_mammif%C3%A8res.jpg" 
+                 width="200" 
+                 alt="Bear Image 1">
+        </a>
+        <a href="https://upload.wikimedia.org/wikipedia/commons/7/74/Panda_g%C3%A9ant_-_t%C3%AAte_%28Ailuropoda_melanoleuca%29_%282%29.jpg" 
+           data-lightbox="set-2" 
+           data-title="Caption for Panda 1">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Panda_g%C3%A9ant_-_t%C3%AAte_%28Ailuropoda_melanoleuca%29_%282%29.jpg" 
+                 width="200" 
+                 alt="Panda Image 1">
+        </a>
+        <a href="https://upload.wikimedia.org/wikipedia/commons/8/8d/Lightmatter_panda.jpg" 
+           data-lightbox="set-3" 
+           data-title="Caption for Panda Eating">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Lightmatter_panda.jpg" 
+                 width="200" 
+                 alt="Giant Panda Eating">
+        </a>
+    </div>
+
+    <!-- Second Row of Images -->
+    <div>
+        <a href="https://upload.wikimedia.org/wikipedia/commons/9/94/Spectacled_bear_%281829%29.jpg" 
+           data-lightbox="set-1" 
+           data-title="Caption for Bear 2">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Spectacled_bear_%281829%29.jpg" 
+                 width="200" 
+                 alt="Bear Image 2">
+        </a>
+        <a href="https://upload.wikimedia.org/wikipedia/commons/6/67/Giant_Pandas_having_a_snack.jpg" 
+           data-lightbox="set-2" 
+           data-title="Caption for Panda 2">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Giant_Pandas_having_a_snack.jpg" 
+                 width="200" 
+                 alt="Panda Image 2">
+        </a>
+        <a href="https://upload.wikimedia.org/wikipedia/commons/8/8d/Giant_Panda_Eating.jpg" 
+           data-lightbox="set-3" 
+           data-title="Caption for Panda Eating">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Giant_Panda_Eating.jpg" 
+                 width="200" 
+                 alt="Panda Eating">
+        </a>
+    </div>
+
+    <!-- Third Row of Images -->
+    <div>
+        <a href="https://upload.wikimedia.org/wikipedia/commons/5/5d/Ursus_arctos_-_1700-1880.jpg" 
+           data-lightbox="set-1" 
+           data-title="Caption for Bear 3">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Ursus_arctos_-_1700-1880.jpg" 
+                 width="200" 
+                 alt="Bear Image 3">
+        </a>
+        <a href="https://upload.wikimedia.org/wikipedia/commons/c/cd/Panda_Cub_from_Wolong%2C_Sichuan%2C_China.JPG" 
+           data-lightbox="set-2" 
+           data-title="Caption for Panda Cub">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Panda_Cub_from_Wolong%2C_Sichuan%2C_China.JPG" 
+                 width="200" 
+                 alt="Panda Cub">
+        </a>
+        <a href="https://upload.wikimedia.org/wikipedia/commons/8/80/Qinling_panda.jpg" 
+           data-lightbox="set-3" 
+           data-title="Caption for Qinling Panda">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Qinling_panda.jpg" 
+                 width="200" 
+                 alt="Qinling Panda">
+        </a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script>
+        // Set Lightbox Configuration
+        lightbox.option({
+            'imageFadeDuration': 1000 // Set fade duration to 1000ms
+        });
+    </script>
+</body>
+</html>
